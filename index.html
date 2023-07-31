@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" media="all" />
+    <script
+      src="https://kit.fontawesome.com/a3e39000f7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- NEEDED WHEN I CODE THE PC VERSION PAGE -->
+
+    <title>Gabriel Pozzi</title>
+  </head>
+  <body>
+    <main id="swup">
+      <!-- HOME -->
+      <div class="home-section">
+        <div class="bg-text">
+          <p class="before">WEB DEVELOPER</p>
+          <p class="after">DEVELOPER</p>
+        </div>
+        <div class="nav-menu transition-swipe"></div>
+        <nav class="blend">
+          <!-- Burger button -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="2em"
+            viewBox="0 0 448 512"
+            id="btn-burger"
+          >
+            <style>
+              svg {
+                fill: #f4593e;
+              }
+            </style>
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+
+          <!-- Nav list -->
+          <ul class="transition-fade">
+            <li>
+              <a href="#swup" class="menu-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="menu-link">About</a>
+            </li>
+            <li>
+              <a href="#work" class="menu-link">Work</a>
+            </li>
+            <li>
+              <a href="#contact" class="menu-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Big title -->
+        <div class="big-title blend">
+          <p>I'm a</p>
+          <p>Web Dev/</p>
+        </div>
+
+        <!-- Arrow-Down Button -->
+        <div class="btn-arrow center">
+          <a href="#about" onclick="delay('#about')">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="4rem"
+              viewBox="0 0 512 512"
+            >
+              <style>
+                svg {
+                  fill: #fe593e;
+                }
+              </style>
+              <path
+                d="M256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM127 281c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l71 71L232 136c0-13.3 10.7-24 24-24s24 10.7 24 24l0 182.1 71-71c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 393c-9.4 9.4-24.6 9.4-33.9 0L127 281z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div>
+          <div class="overlay-hover">
+            <p>Home</p>
+          </div>
+          <div class="overlay-hover">
+            <p>About</p>
+          </div>
+          <div class="overlay-hover">
+            <p>Work</p>
+          </div>
+          <div class="overlay-hover">
+            <p>Contact</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+
+      <div id="about" class="about-section overflow-hidden">
+        <div class="absolute-about-title">About</div>
+        <div class="container">
+          <div id="about-title" class="title center"><p>About</p></div>
+          <div class="about-container">
+            <div class="text">
+              <p>My name is Gabriel Pozzi.</p>
+              <p>
+                I'm a front-end developer jr. with an enormous desire to learn
+                new skills and technologies.
+              </p>
+              <p>
+                Currently studying in “Jóvenes a programar” (JaP in Spanish),
+                forming my skills in HTML, CSS, JS and soft skills which include
+                time management, active communication, leadership skills and
+                more!
+              </p>
+              <p>
+                I'm a person who likes challenges, so your idea is right for me!
+              </p>
+            </div>
+            <div class="img-container">
+              <div class="after-portrait"></div>
+              <div class="portrait"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK -->
+      <div id="work" class="work-section overflow-hidden">
+        <div class="absolute-work-title">Work</div>
+        <div class="container center">
+          <div id="work-title" class="title"><p>Work</p></div>
+          <div class="wrapper">
+            <div class="work-box">
+              <div class="btn-work">
+                <p>Visit</p>
+              </div>
+            </div>
+            <div class="work-box">
+              <div class="btn-work">
+                <p>Visit</p>
+              </div>
+            </div>
+            <div class="work-box">
+              <div class="btn-work">
+                <p>Visit</p>
+              </div>
+            </div>
+            <div class="work-box">
+              <div class="btn-work">
+                <p>Visit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div id="contact" class="contact-section">
+        <div class="title">
+          <p>Contact</p>
+        </div>
+
+        <form action="" method="post">
+          <div class="form">
+            <label for="name">Name: </label>
+            <input type="text" name="name" />
+          </div>
+          <div class="form">
+            <label for="email">Email: </label>
+            <input type="email" name="email" />
+          </div>
+          <div class="form">
+            <label for="message">Message: </label>
+            <textarea name="message" rows="5" cols="33"> </textarea>
+          </div>
+
+          <div class="form center">
+            <input type="submit" value="Submit!" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script type="module" defer src="JS/index.js"></script>
+  </body>
+</html>
