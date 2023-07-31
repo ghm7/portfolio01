@@ -61,3 +61,5 @@ var docWidth = document.documentElement.offsetWidth;
     console.log(`docWidth: ${docWidth}`);
   }
 });
+
+console.log("Hi");
